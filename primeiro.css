@@ -1,0 +1,82 @@
+
+.blurry{
+	background-color: #eeeeee;
+	color: transparent;
+	text-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+.pressed{
+	background-color: #cccccc;
+	color: #cccccc; 
+	text-shadow: -1px -1px 3px rgba(0,0,0,.2),
+		     1px 1px 2px rgba(255,255,255,.7);	
+}
+
+div{
+	width: 100%;
+	overflow: hidden;
+}
+
+body{
+	background: #FEFDE9;	
+	margin: 0;
+	text-align: center;
+	font-family: "league gothic", "impact" sans-serif;
+	text-transform: uppercase;
+	text-rendering: optimizelegibility;
+	font-size: 100px;
+	line-height: 0;
+    list-style: none;
+    background:
+    linear-gradient(324deg, #232927 4%,   transparent 4%) -70px 43px,
+    linear-gradient( 36deg, #232927 4%,   transparent 4%) 30px 43px,
+    linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+    linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+    linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+    linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+    
+    linear-gradient(324deg, #232927 4%,   transparent 4%) -20px 93px,
+    linear-gradient( 36deg, #232927 4%,   transparent 4%) 80px 93px,
+    linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+    linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+    linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+    linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+    background-color: #232927;
+    background-size: 100px 100px;
+}
+
+.shadow{
+	box-shadow: 20px 20px 20px rgba(78, 184, 226, 0.884);
+	background: #0e31f7;
+}
+
+.inset{
+	box-shadow: inset 3px 3px 5px rgba(17, 85, 3, 0.7);
+	background: #1c7c09; 
+}
+li div{
+	width: 500px;
+	height: 100px;
+	margin: 0 auto 50px;
+	border-radius: 10px;
+    list-style: none;
+}
+
+li body{
+	margin-top: 30px;
+	background: #f1cdea;
+}
+.border2{
+	border-radius: 0 20px;
+	background: #cc2695;
+}
+a div{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 30px;
+
+}
+
+a body{
+	margin-top: 50px;
+	background: #292929;
+}
