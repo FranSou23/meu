@@ -70,8 +70,8 @@ li body{
 	background: #cc2695;
 }
 a div{
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	margin: 0 auto 30px;
 
 }
@@ -79,4 +79,5 @@ a div{
 a body{
 	margin-top: 50px;
 	background: #292929;
+
 }
